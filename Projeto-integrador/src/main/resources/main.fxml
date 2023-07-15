@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="1017.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PJP2023.Projeto.integrador.Controller.Controller">
+   <children>
+      <MenuBar fx:id="mnCadastro">
+        <menus>
+          <Menu mnemonicParsing="false" text="Novo Cadastro">
+            <items>
+              <MenuItem fx:id="mniMarca" mnemonicParsing="false" onAction="#CadastroMarca" text="Marca" />
+                  <MenuItem fx:id="mniModelo" mnemonicParsing="false" onAction="#CadastroModelo" text="Modelo" />
+                  <MenuItem fx:id="mniVeiculo" mnemonicParsing="false" onAction="#CadastroVeiculo" text="Veiculo" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="76.0" prefWidth="1013.0" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <TableView fx:id="tblCarros" prefHeight="420.0" prefWidth="1006.0">
+        <columns>
+          <TableColumn fx:id="clnModelo" prefWidth="310.0" text="Modelo" />
+          <TableColumn fx:id="clnMarca" prefWidth="136.0" text="Marca" />
+            <TableColumn fx:id="clnFabricacao" prefWidth="92.0" text="Fabricação" />
+            <TableColumn fx:id="clnPlaca" prefWidth="103.0" text="Placa" />
+            <TableColumn fx:id="clnRenavam" prefWidth="154.0" text="Renavam" />
+            <TableColumn fx:id="clnChassi" prefWidth="221.0" text="Chassi" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
