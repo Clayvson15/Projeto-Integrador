@@ -18,9 +18,9 @@
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="245.0">
          <children>
-            <TableView fx:id="tbnMarca" layoutY="2.0" prefHeight="391.0" prefWidth="242.0">
+            <TableView fx:id="tblMarca" layoutY="2.0" prefHeight="391.0" prefWidth="242.0">
               <columns>
-                <TableColumn fx:id="tblMarca" prefWidth="237.0" text="Marcas Cadastradas" />
+                <TableColumn fx:id="clnMarca" prefWidth="237.0" text="Marcas Cadastradas" />
               </columns>
             </TableView>
          </children>

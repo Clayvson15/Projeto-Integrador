@@ -21,6 +21,14 @@ public class Marcas {
         return nome;
     }
 
+    public Marcas() {
+    }
+
+    public Marcas(String nome, Integer id) {
+        this.nome = nome;
+        this.id = id;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
